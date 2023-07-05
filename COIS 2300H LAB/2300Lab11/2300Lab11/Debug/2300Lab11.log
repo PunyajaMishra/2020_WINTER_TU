@@ -1,0 +1,5 @@
+﻿  2300Lab11.cpp
+C:\Users\punya\source\repos\2300Lab11\2300Lab11\2300Lab11.cpp(4,32): warning C4079: unexpected token ')'
+C:\Users\punya\source\repos\2300Lab11\2300Lab11\2300Lab11.cpp(16,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\punya\source\repos\2300Lab11\2300Lab11\2300Lab11.cpp(19,19): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  2300Lab11.vcxproj -> C:\Users\punya\source\repos\2300Lab11\Debug\2300Lab11.exe
