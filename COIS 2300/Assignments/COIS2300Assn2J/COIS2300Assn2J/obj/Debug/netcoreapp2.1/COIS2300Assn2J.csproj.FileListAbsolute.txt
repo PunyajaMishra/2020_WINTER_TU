@@ -1,0 +1,11 @@
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\bin\Debug\netcoreapp2.1\COIS2300Assn2J.deps.json
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\bin\Debug\netcoreapp2.1\COIS2300Assn2J.runtimeconfig.json
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\bin\Debug\netcoreapp2.1\COIS2300Assn2J.runtimeconfig.dev.json
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\bin\Debug\netcoreapp2.1\COIS2300Assn2J.dll
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\bin\Debug\netcoreapp2.1\COIS2300Assn2J.pdb
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.csprojAssemblyReference.cache
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.csproj.CoreCompileInputs.cache
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.AssemblyInfoInputs.cache
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.AssemblyInfo.cs
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.dll
+C:\Users\punya\source\repos\COIS2300Assn2J\COIS2300Assn2J\obj\Debug\netcoreapp2.1\COIS2300Assn2J.pdb
