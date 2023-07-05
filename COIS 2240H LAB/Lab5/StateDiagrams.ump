@@ -1,0 +1,33 @@
+// UML state diagram for a Booking on an airline, represented in Umple
+
+class Booking {
+  state {
+    newBooking { 
+      assignSeat -> seatAssigned;
+      cancel -> cancelled;
+      waitListed->waitingList;
+    }
+    seatAssigned {
+      cancel -> cancelled;
+      checkIn -> checkedIn;
+    }
+    checkedIn {
+      cancel -> cancelled;
+      complete -> completed;
+    }
+    waitingList{
+    assignseattowaitingList->seatAssigned;
+    }
+    cancelled {}
+    completed {}
+  }
+}
+//$?[End_of_model]$?
+
+namespace -;
+
+
+class Booking
+{
+  position 50 30 109 45;
+}

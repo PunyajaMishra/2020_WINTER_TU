@@ -1,0 +1,144 @@
+// Hospital system - sample UML class diagram in Umple
+
+class Hospital
+{
+     1 -- * Employee;
+     1 -- 1..* Ward;
+}
+
+// Subsections within the hospital.
+class Ward
+{
+     String name;
+     Integer capacity;
+     1..* -- * Employee;
+     1 -- * Patient;
+}
+
+// The people who work at the hospital.
+class Employee
+{
+     String name;
+     Integer id;
+     Integer salary;
+     1 -- 1..* Shift;
+     1 -- 1..* Privilege;
+}
+
+// Working shifts that the employees have.
+class Shift
+{
+     Date date;
+     Integer startTime;
+     Integer endTime;
+}
+
+// Various privileges and roles that the employees have.
+class Privilege
+{
+     String privilege;
+}
+
+// Specialized employee who looks after patients.
+class Doctor
+{
+     isA Employee;
+}
+
+class Inspector
+{
+     isA Employee;
+  1 -- * Ward;
+}
+
+class Nurse
+{
+     isA Employee;
+     * -- * Patient;
+}
+// Specialized doctor who performs advanced procedures on patients.
+class Surgeon
+{
+     isA Doctor;
+}
+
+// Employee who maintains the cleanliness of the hospital.
+class Janitor
+{
+     isA Employee;
+}
+
+// Patient who is at the hospital to get better.
+class Patient
+{
+     String name;
+     * -- * Doctor;
+}
+//$?[End_of_model]$?
+
+namespace -;
+
+
+class Hospital
+{
+  position 231 11 109 45;
+  position.association Employee__Hospital 49,46 55,0;
+  position.association Hospital__Ward 110,37 74,0;
+}
+
+class Doctor
+{
+  position 342 305 109 41;
+}
+
+class Surgeon
+{
+  position 338 378 109 41;
+}
+
+class Janitor
+{
+  position 116 356 109 41;
+}
+
+class Patient
+{
+  position 610 351 113 58;
+  position.association Doctor__Patient 0,0 110,44;
+  }
+
+
+class Shift
+{
+  position 17 32 149 93;
+}
+
+class Privilege
+{
+  position 11 221 132 58;
+}
+
+class Employee
+{
+  position 213 80 124 92;
+  position.association Employee__Shift 0,9 149,57;
+  position.association Employee__Privilege 0,65 30,0;
+}
+
+class Ward
+{
+  position 589 138 139 75;
+  position.association Employee__Ward 0,8 124,13;
+  position.association Patient__Ward 79,75 61,0;
+}
+
+class Inspector
+{
+  position 447 231 109 41;
+  position.association Inspector__Ward 108,0 0,10;
+}
+
+class Nurse
+{
+  position 215 548 109 41;
+}
